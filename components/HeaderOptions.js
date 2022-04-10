@@ -1,4 +1,4 @@
-import {DotsVerticalIcon, MapIcon, NewspaperIcon, PhotographIcon, PlayIcon, SearchIcon} from "@heroicons/react/outline";
+import { DotsVerticalIcon, MapIcon, NewspaperIcon, PhotographIcon, PlayIcon, SearchIcon } from "@heroicons/react/outline";
 import HeaderOption from '../components/HeaderOption';
 
 function HeaderOptions() {
