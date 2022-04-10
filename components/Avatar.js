@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Avatar({url, className}) {
+function Avatar({ url, className }) {
     return (
         <img
             loading="lazy"
