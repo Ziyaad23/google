@@ -22,7 +22,7 @@ function Header() {
         <header className="sticky top-0 bg-white">
             <div className="flex w-full p-6 items-center">
                 <Image
-                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    src="/google.png"
                     height={40}
                     width={120}
                     onClick={() => router.push("/")}
@@ -39,7 +39,7 @@ function Header() {
                     <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex" />
                     <button hidden type="submit" onClick={search}>Search</button>
                 </form>
-                <Avatar className="ml-auto" url="https://media-exp1.licdn.com/dms/image/C5103AQGYKpOql95-Sw/profile-displayphoto-shrink_200_200/0/1517339551606?e=1655337600&v=beta&t=trDQTjEnjaK-7NOKOxPcvrxH2Zo-7JuQZGz3sZijPO0" />
+                <Avatar className="ml-auto" url="/myAvatar.jpg" />
             </div>
 
             {/* HeaderOptions */}
